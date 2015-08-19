@@ -1,0 +1,252 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+h1 {
+    padding-left: 27px;
+}
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: rgb(85, 85, 85);
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(51, 58, 66);
+    width: 100%;
+    overflow-y: scroll;
+}
+
+a {
+    color: rgb(66, 161, 255);
+    outline: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 18px
+}
+
+img {
+    border: none;
+}
+
+input {
+    vertical-align: middle;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 112px;
+}
+
+#logo {
+    display: block;
+    padding-top: 1%;
+    margin: 0 auto;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+    padding-top: 5px;
+}
+
+/* order table
+-----------------------------------------------------------------------------*/
+.titl1, .titl2, .titl3, .titl4 {
+    margin-top: 30px;
+    border-bottom: rgb(243, 243, 243) 1px solid;
+    padding-bottom: 7px;
+}
+
+.head, .summ, .fwrap {
+    background: rgb(247, 247, 247);
+}
+
+.ord {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+}
+
+#content table {
+    border: 1px solid rgb(229, 229, 229);
+}
+
+#content table td {
+    border: 1px solid rgb(229, 229, 229);
+}
+
+.ord td {
+    vertical-align: middle;
+}
+
+.col1 {
+    width: 70px;
+    padding: 5px;
+}
+
+.col6 {
+    width: 70px;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top !important;
+}
+
+.col15 {
+    width: 459px;
+    text-align: left;
+    padding: 8px 10px 8px 10px;
+}
+
+.col2 {
+    width: 120px;
+}
+
+.col3 {
+    width: 81px;
+}
+
+.col4 {
+    width: 120px;
+}
+
+.col5 {
+    width: 80px;
+}
+
+.promo {
+    text-align: right;
+    padding: 5px 5px 5px 5px;
+}
+
+.summ {
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* bill, pay
+-----------------------------------------------------------------------------*/
+.bill, .pay {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 0.875em;
+}
+
+.bill td {
+    padding-left: 20px;
+}
+
+.about {
+    padding: 10px 20px 10px 20px;
+}
+
+.bill .head {
+    text-align: center;
+    padding: 0;
+}
+
+.pay {
+    margin-bottom: 20px;
+}
+
+.w110 {
+    width: 110px;
+}
+
+.w110b {
+    width: 110px;
+    text-align: center;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    text-align: center;
+    width: 100%;
+    height: 84px;
+    background-position: 50% -7px;
+    background-repeat: no-repeat;
+}
+
+#copy {
+    margin: auto;
+    padding: 24px 0;
+    height: 36px;
+    width: 100%;
+    font-size: 0.750em;
+}
+
+/* Buttons
+-----------------------------------------------------------------------------*/
+#confirm {
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    margin: 0 auto;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #5eaa25;
+    color: #FFF !important;
+    font-weight: 700 !important;
+    font-size: 0.875em !important;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+    padding: 4px 16px;
+    border: 1px solid #717374;
+    cursor: pointer;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.button:hover {
+    border: 1px solid #1389ff;
+    background: #3c9dff;
+}
