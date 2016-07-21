@@ -25,7 +25,6 @@ class InvoicePayment
     function getNumber($request)
     {
         $number = $request->get('number');
-        $number = $this->purgeNumber($number);
         return $number;
     }
 
